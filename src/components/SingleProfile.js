@@ -18,7 +18,6 @@ class SingleProfile extends React.Component {
     })
   }
   render() {
-    console.log(this.props)
     return (
       <li key={this.props.listing.title} >
         <div className="profile-card" onClick={this.toggleSkills}>
